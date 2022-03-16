@@ -1,8 +1,8 @@
-#include <stdio.h>
+#include <stdio.h> 
 #include "main.h"
-
-int main()
+int chart(void);
+int main(void)
 {
-	putChar();
+	chart();
 	return(0);
 }
