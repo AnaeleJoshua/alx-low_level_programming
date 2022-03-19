@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdlib.h>
 /* more headers goes there */
-/*computes a random number, everytime it is compiled
+/*computes a random number, everytime it is compiled*/
 /* betty style doc for function main goes there */
 int main(void)
 {
