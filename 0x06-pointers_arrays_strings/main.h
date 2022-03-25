@@ -1,14 +1,6 @@
-#include <stdio.h>
-#include <string.h>
-#include "main.h"
-
-int strcon();
-
-int main(void)
-{
-    strcon();
-}
-/*int strcon(void)
+/*concatenates two string
+ */
+int strcon(void)
    {
         char s1[98] = "Hello ";
         char s2[] = "World!\n";
@@ -20,8 +12,4 @@ int main(void)
         printf("%s", s2);
         printf("%s", ptr);
 
-   }*/
-
-
-        
-
+   }
