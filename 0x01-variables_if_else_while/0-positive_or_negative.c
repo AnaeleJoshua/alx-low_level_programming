@@ -5,9 +5,11 @@
 /*computes a random number, everytime it is compiled*/
 /* betty style doc for function main goes there */
 /**
+ *main-computes a random number, everytime it is compiled
+ * 
  * this program pribts
  * a random number
- * returns 0
+ * returns: 0 if program exceutes successfully
  */
 int main(void)
 {
