@@ -7,9 +7,9 @@
 /**
  *main-computes a random number, everytime it is compiled
  * 
- * this program pribts
- * a random number
- * returns: 0 if program exceutes successfully
+ *this program pribts
+ *a random number
+ *Return: 0 if program exceutes successfully
  */
 int main(void)
 {
