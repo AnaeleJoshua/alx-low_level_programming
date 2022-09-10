@@ -16,7 +16,7 @@ int main(void)
 	for (low = 'a'; low <= 'Z'; low++)
 		putchar(low);
 	for (cap = 'A'; cap <= 'Z'; cap++)
-		putchar(low);
+		putchar(cap);
 	putchar('\n');
 
 	return (0);
