@@ -11,8 +11,11 @@
 int main(void)
 {
 	char low;
+	char cap;
 
 	for (low = 'a'; low <= 'Z'; low++)
+		putchar(low);
+	for (cap = 'A'; cap <= 'Z'; cap++)
 		putchar(low);
 	putchar('\n');
 
