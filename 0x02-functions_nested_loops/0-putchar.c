@@ -2,14 +2,15 @@
 #include "main.h"
 
 /**
- * Main - Prints _putchar
+ * put_char - Prints _putchar
+ * @strin: string argument
  *
  * Description: when executed it prints _putchar.
  * Return: 0 (success)
- */
-int main(void)
+*/
+
+int put_char(char strin[])
 {
-	char strin[] = "_putchar";
 	int n = 0;
 
 	while (n <= ((sizeof(strin)) / sizeof(char)))
