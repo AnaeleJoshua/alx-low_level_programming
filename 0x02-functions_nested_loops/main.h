@@ -13,5 +13,5 @@
  * Return: string  sum of the two parameters
  */
 
-int _putchar(char strin[])
+int _putchar(char[])
 #endif
