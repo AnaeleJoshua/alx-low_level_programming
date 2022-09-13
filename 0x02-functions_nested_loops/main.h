@@ -13,5 +13,5 @@
  * Return: string  sum of the two parameters
  */
 
-int _putchar(char *ch)
+int _putchar(char c)
 #endif
