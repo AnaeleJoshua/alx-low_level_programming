@@ -3,7 +3,7 @@
 #define LIBRARY_H
 
 /**
- * put_char - prints _putchar
+ * _putchar - prints _putchar
  * @strin: string argument
  *
  * Description: This is a longer description.
@@ -13,5 +13,5 @@
  * Return: string  sum of the two parameters
  */
 
-int put_char(char strin[])
+int _putchar(char strin[])
 #endif
