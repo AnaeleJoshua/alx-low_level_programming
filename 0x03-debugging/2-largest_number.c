@@ -7,8 +7,8 @@ include "main.h"
  * @var3: third integer
  *
  * Created by: ALX
- * Modified by: TosinISOGUN
- * Date modified: 6th July, 2022
+ * Modified by: AnaeleJoshua
+ * Date modified: 16th August, 2022
  *
  * Return: largest number
  */
