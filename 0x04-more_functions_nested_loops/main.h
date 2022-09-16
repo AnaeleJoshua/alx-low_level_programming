@@ -26,4 +26,5 @@ void times_table(void);
 int add(int, int);
 int _isupper(int c);
 void print_to_98(int n);
+int _isdigit(int c);
 #endif
