@@ -4,7 +4,6 @@
 /**
  * print_numbers - Prints _putchar
  *
- * @void: main rg
  * Description: when executed it prints _putchar.
 */
 
