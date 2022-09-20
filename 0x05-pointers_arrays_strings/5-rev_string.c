@@ -2,8 +2,9 @@
 #include <stdio.h>
 
 /**
- * main - check the code
+ * rev_string - reverses the string
  *
+ * @s: string
  * Return: Always 0.
  */
 void rev_string(char *s)
@@ -21,6 +22,6 @@ void rev_string(char *s)
 	{
 		temp = s[i];
 		s[i] = s[len - 1 - i];
-		s[len - 1 -i] = temp;
+		s[len - 1 - i] = temp;
 	}
 }
