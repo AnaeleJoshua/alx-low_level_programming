@@ -8,7 +8,7 @@
  * @src: source string
  * Return: Always 0.
  */
-char *_strcat(char *dest, char *src)*
+char *_strcat(char *dest, char *src)
 {
 int i, j;
 
@@ -24,8 +24,6 @@ int i, j;
 		j++;
 		i++;
 	}
-
 	dest[i] = '\0';
-
-	return (dest);	
+	return (dest);
 }
