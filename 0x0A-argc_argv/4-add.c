@@ -1,14 +1,4 @@
 #include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-
-/**
- *  main -> program to add positive numbers
- *  @argc: argc parameter
- *  @argv: an array of a command listed
- *  Return: 0 for success
- */
-#include <stdio.h>
 #include "main.h"
 
 /**
