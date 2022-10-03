@@ -23,6 +23,7 @@ int main(int argc, char *argv[])
 		{
 			mul *= atoi(argv[i]);
 		}
+		printf("%d", mul);
 	}
 	return (0);
 }
