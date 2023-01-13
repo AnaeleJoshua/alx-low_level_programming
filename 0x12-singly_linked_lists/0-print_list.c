@@ -15,7 +15,7 @@ size_t list_len(const list_t *h)
 	
 	mover = h;
 
-	while(mover -> next != 0)
+	while(h -> next != 0)
 	{
 		if( h->str == '\0')
 		{
@@ -24,11 +24,11 @@ size_t list_len(const list_t *h)
 		}
 		else
 		{
-			count++;
-			mover = mover -> next;
-			
+			printf("[%u] %s\n");
 		}
 	}
+	counter++;
+	h = h -> next;
 
 	return (count);
 }
