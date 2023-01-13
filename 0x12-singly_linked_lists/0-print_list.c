@@ -11,7 +11,7 @@
 size_t list_len(const list_t *h)
 {
 	list_t *mover;
-	int count = 0;
+	size_t count = 0;
 	
 	mover = h;
 
@@ -19,7 +19,6 @@ size_t list_len(const list_t *h)
 	{
 		if( h->str == '\0')
 		{
-			count++;
 			printf(0);
 
 		}
@@ -30,6 +29,6 @@ size_t list_len(const list_t *h)
 			
 		}
 	}
-	
-	return counter;
+
+	return (count);
 }
