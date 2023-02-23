@@ -1,5 +1,3 @@
-All:=school
-       
-school: school.c main.c 
+All: main.c school.c
 	gcc school.c main.c -o school
 
