@@ -1,13 +1,7 @@
 CC=gcc
 SRC=main.c school.c
-OBJ=$(wildcard *.o)
+OBJ=$(SRC:.c=.o)
 NAME=school
 
-all: $(OBJ) m.h
-	$(CC) $(OBJ) m.h -o $(NAME)
-
-main.o: main.c
-	$(CC) main.c
-
-school.o: school.c
-	$(CC) school.c
+all: $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
