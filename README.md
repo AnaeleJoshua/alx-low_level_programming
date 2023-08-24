@@ -1,4 +1,6 @@
 # LEARNING TO PROGRAM IN C
+
+==================================================================================================================================================================================================
 This repository shows my C- learning Journey, Under the ALX software engineering program
 ## C - Hello, World
 ### General
