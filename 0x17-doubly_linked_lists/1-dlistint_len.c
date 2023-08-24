@@ -1,4 +1,4 @@
-#include "main.h"
+#include "lists.h"
 
 /**
  * dlistint_len - Returns number of elements in linked list

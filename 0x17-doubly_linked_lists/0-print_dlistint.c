@@ -1,4 +1,4 @@
-#include "main.h"
+#include "lists.h"
 
 /**
  * print_dlistint - Prints all elements of a linked list
@@ -8,7 +8,7 @@
  */
 size_t print_dlistint(const dlistint_t *h)
 {
-	//Prints all elements of a linked list
+
 	const dlistint_t *currentItem;
 	size_t n;
 

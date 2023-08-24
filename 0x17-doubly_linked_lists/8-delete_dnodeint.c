@@ -1,4 +1,4 @@
-#include "main.h"
+#include "lists.h"
 
 /**
  * dlistint_len - Returns number of elements in linked list
@@ -53,14 +53,14 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 		if (temp->next)
 		{
 			temp = temp->next;
-			temp->previous = currentItem->previous;
+			temp->prev = currentItem->prev;
 		}
 	}
 	else
 	{
 		*head = (*head)->next;
 		if (*head)
-			(*head)->previous = NULL;
+			(*head)->prev = NULL;
 
 	}
 	free(currentItem);

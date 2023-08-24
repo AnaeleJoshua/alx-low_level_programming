@@ -1,4 +1,4 @@
-#include "main.h"
+#include "lists.h"
 
 /**
  * dlistint_len - Returns number of elements in linked list
@@ -52,21 +52,21 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 
 	if (idx)
 	{
-		new->previous = currentItem;
+		new->prev = currentItem;
 		new->next = currentItem->next;
 		currentItem->next = new;
 		if (new->next)
 		{
 			currentItem = new->next;
-			currentItem->previous = new;
+			currentItem->prev = new;
 		}
 	}
 	else
 	{
-		new->previous = NULL;
+		new->prev = NULL;
 		new->next = currentItem;
 		if (new->next)
-			currentItem->previous = new;
+			currentItem->prev = new;
 		*h = new;
 	}
 	new->n = n;
